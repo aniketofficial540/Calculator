@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    font-family: cursive;
+}
+
+body {
+    overflow: hidden;
+    
+}
+input,
+button {
+    border: 2px solid rgb(215, 74, 74) ;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #4d4d4d;
+}
+
+#yellow-color {
+    background-color: #ffa500;
+}
+
+#display {
+    width: 320px;
+    border-radius: 20px;
+    color: white;
+    background-color: #4D4D4D;
+
+}
+
+.body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.background-blur {
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+}
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    
+}
+.background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    
+}
+.child-container1 {
+    
+    /* border: 2px solid black; */
+    border-radius: 20px;
+
+}
+
+table {
+    border-radius: 18px;
+    /* background-color: black; */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    
+}
